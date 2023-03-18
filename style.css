@@ -1,0 +1,48 @@
+title{
+    margin: 0 auto;
+}
+.pokemon-card {
+border: 1px solid black;
+display: inline-block;
+margin: 10px;
+padding: 10px;
+text-align: center;
+width: 200px;
+}
+.pokemon-card img {
+width: 150px;
+height: 150px;
+object-fit: contain;
+}
+.modal {
+background-color: rgba(0, 0, 0, 0.5);
+display: none;
+height: 100%;
+left: 0;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1;
+}
+.modal-content {
+background-color: #fff;
+margin: auto;
+margin-top: 10%;
+max-width: 800px;
+padding: 20px;
+position: relative;
+text-align: center;
+width: 80%;
+}
+.close {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+.close:hover,
+.close:focus {
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
